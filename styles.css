@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -16,7 +16,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Estilo del contenedor principal */
 .container {
     width: 100%;
     max-width: 600px;
@@ -51,7 +50,6 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Estilo del área de salida */
 #output {
     margin-top: 20px;
     background-color: #f9f9f9;

@@ -1,9 +1,9 @@
 <?php
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // API para ejecutar comandos
+
     header("Content-Type: application/json");
-    header("Access-Control-Allow-Origin: *"); // Permitir solicitudes desde cualquier origen (¡solo para desarrollo!)
+    header("Access-Control-Allow-Origin: *"); 
 
     require_once __DIR__ . '/CommandController.php';
 
@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $response = $controller->executeCommand($input['command']);
     echo json_encode($response);
 } else {
-    // HTML para el navegador
+
     ?>
     <!DOCTYPE html>
     <html lang="es">
